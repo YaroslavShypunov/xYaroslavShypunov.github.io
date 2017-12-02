@@ -27,7 +27,7 @@ header{
 }
 .menu1{
     margin-left: 20px;
-   margin-top: 5%;
+   margin-top: 80px;
     width:105px;
     height: 65px;
 
@@ -701,7 +701,11 @@ marquee a{
 
 
 
-
+@media screen and (max-height: 570px){
+    header{
+        margin-top:-30px;
+    }
+}
 @media screen and (max-width: 1400px){
         .textEducation {
     width: 55%;
