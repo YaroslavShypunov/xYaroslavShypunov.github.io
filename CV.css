@@ -20,13 +20,14 @@ body{
 
 /* -------------------MENU-----------------------*/
 header{
+    
     display: flex;
     flex-direction: column;
 
 }
 .menu1{
     margin-left: 20px;
-   margin-top: 80px;
+   margin-top: 5%;
     width:105px;
     height: 65px;
 
