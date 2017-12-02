@@ -1202,6 +1202,16 @@ marquee a{
         font-size: 15px;
         padding: 5px;
     }
+        #mobileMyName{
+        margin:auto;
+        margin-top:55%;
+        margin-left: 20%:
+    }
+    #mobileWebDeveloper{
+        margin-top: 10px;
+        margin: auto;
+        margin-left: 20%;
+    }
 }
 @media screen and (max-width: 345px){
         .pagesMobile{
