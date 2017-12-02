@@ -1220,9 +1220,7 @@ marquee a{
 
 
 @media screen and (max-height: 680px){
-    header{
-   margin-top: -20px;
-    }
+
     .menu1{
     margin-left: 20px;
    margin-top: 40px;  
