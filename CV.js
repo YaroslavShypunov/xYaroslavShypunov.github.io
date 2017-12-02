@@ -5,11 +5,6 @@ $(document).ready(function(){
 
     },4000);
     setInterval(function(){
-    $('.mobileSkillsTitles + p').animate({opacity:'1'},50);
-    setTimeout(function(){$('.mobileSkillsTitles + p').animate({opacity:'0'},50);},200);    
-    
-    },5000);
-    setInterval(function(){
         $('#hrMobile2').animate({opacity:'0'},100);
         setTimeout(function(){$('#hrMobile2').animate({opacity:'1'},100);},100);
     },2000);
@@ -22,7 +17,7 @@ $(document).ready(function(){
     });
     
     $('#whiteBackgroundMobile + div').mouseover(function(){
-                $('#menglish').animate({width:'42%'},1500);
+        $('#menglish').animate({width:'42%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
         $('#mpolish').animate({width:'65%'},1500);

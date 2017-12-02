@@ -1197,7 +1197,18 @@ marquee a{
 }
 
 
-
+@media screen and (max-width: 385px){
+    .pagesMobile{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 345px){
+        .pagesMobile{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
 
 /* -------------------Firefox------------------------------*/
 
