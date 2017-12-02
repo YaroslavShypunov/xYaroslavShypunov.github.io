@@ -1,0 +1,1217 @@
+
+
+body{
+    background-color: rgb(18,18,18);
+	 overflow: hidden;
+}
+
+#ground{
+    width:90%;
+    height:100%;
+    left:10%;
+    position: absolute;
+    top:0px;
+
+    
+}
+#mobile{
+    display: none;
+}
+
+/* -------------------MENU-----------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu1{
+    margin-left: 20px;
+   margin-top: 80px;
+    width:105px;
+    height: 65px;
+
+    
+}
+
+
+#firstMenu{
+    width:90px;
+    height: 90px;
+    display: block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_couch.svg) no-repeat;
+    
+}
+
+#firstMenu:hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_couch.svg) no-repeat;
+}
+#thirdMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_mac.svg) no-repeat;
+}
+#thirdMenu:hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_mac.svg) no-repeat;
+}
+
+#forthMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_phone.svg) no-repeat;
+}
+#forthMenu:hover{
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_phone.svg) no-repeat;
+}
+#fifthMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background: url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+}
+#fifthMenu:hover{
+    display:block;
+    background: url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+}
+/*--------------------------------------------------*/
+#groundDIV{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 30%;
+    left: 25%;
+    color:white;
+    width:54%;
+    height: 200px;
+}
+ #MyName{
+    font-family: 'Mukta', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+     border-bottom: 2px solid white;
+}
+#WebDeveloper{
+    font-family: 'Kaushan Script', cursive;
+    font-style:italic;
+    font-weight: bold;
+    font-size:25px;
+    margin-top:-50px;
+}
+.buttonHandD{
+    flex-shrink: 0;
+    background-image:url(ButtonGround.png);
+    margin-top: 40px;
+    display: block;
+    padding: 10px;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    text-decoration: none;
+    
+    color:white;
+    
+    float:left;
+}
+#latynCyt{
+    margin-top:-20px;
+    font-size:16px;
+    font-family: 'Mukta', sans-serif;
+}
+.buttonHandD:hover{
+    background-color:black;
+}
+.buttonD{
+    
+    margin-left: 10px;
+    
+}
+
+#groundDIV div{
+display: flex;
+justify-content: flex-end;  
+}
+
+/*-------------------------------------social networks-------------------------------*/
+
+.divNetworks{
+    position:absolute;
+    left:93%;
+    top:42%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Menu2Icons{
+padding:5px;
+background:black;
+border-radius: 150px;
+  
+}
+#menu2Icons1{
+    
+    width: 50px;
+    height: 50px;
+}
+#menu2Icons2{
+    margin-top: -15px;
+    padding:15px;
+    width:29px;
+    height:29px;
+}
+#menu2Icons3{
+    margin-top: -15px;
+    padding:10px;
+    width:40px;
+    height:40px;
+}
+
+.Menu2Icons:hover{
+     background: rgba(0,0,0,0.7);
+}
+
+/*-----------------------------------------kalendarz-------------------------------*/
+
+#kalendar{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    top: 5%;
+    left: 91%;
+     font-family: 'Mukta', sans-serif;
+    border:2px solid white;
+    color:white;
+    
+    
+    
+}
+#monthDate{
+    font-size:40px;
+    font-weight: bold;
+    margin:-10px 10px 0px 10px;
+    
+}
+#dayDate{
+    font-weight: bold;
+    font-size: 55px;
+    margin: -30px 0px 0px 19%;
+}
+#yearDate{
+    font-size:40px;
+    margin:-30px 10px 0px 10px;
+}
+
+
+/*------------------------------_TIMER_----------------------------------------*/
+
+
+#timeR{
+        position: absolute;
+    margin-top: 2%;
+    margin-left: 81%;
+     font-family: 'Mukta', sans-serif;
+    
+    color:white;
+    width:150px;
+    height: 50px;
+}
+
+
+
+/*----------------------------------_CV_---------------------------------------*/
+
+.CV{
+    display:none;
+    flex-direction: column;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+	height:93%;
+
+    color:#424242;
+    padding-bottom: 20px;
+
+}
+.oboloczka{
+   overflow-x: hidden;
+   width:100%;
+   height:40px;
+    background:black;
+}
+#close{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left: 95%;
+}
+#ava{
+
+    margin-top: 40px;
+    margin-left: 57%;
+    width:35%;
+    height:75%;
+    margin-bottom: 40px;
+}
+#KnowMe{
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+    
+}
+#CVline{
+    width:720px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -71px;
+    margin-right: 85px;
+}
+#KnowMetext{
+    margin-top: 70px;
+    margin-left: 50px;
+    width:90%;
+}
+#CVinform{
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top:-510px;
+}
+td{
+    padding-left: 25px;
+}
+tr{
+    text-align: left;
+}
+#CVcyt{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 45%;
+    padding: 10px;
+    background-color:#FBFBFB;
+    border-left:7px solid #FBFBFB;
+    border-left:7px solid #3799CC;
+}
+#FavQuote{
+    font-size:23px;
+    margin-left: 3%;
+}
+#Cytate{
+    margin: 20px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+span{
+    font-size:30px;
+    font-weight: bold;
+}
+#AutorCyt{
+    margin-left: 300px;
+    color:darkgray;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+/* -------------------------------_SKILLS_---------------------------------------*/
+.skills{
+        display:none;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+   
+    
+}
+#close2{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left: 95%;
+}
+
+#skillsTitle{
+    margin-top: 70px;
+     margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+
+.skillsLine{
+        width:820px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -75px;
+    margin-right: 60px;
+}
+.skillsTitles{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    margin-top:80px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;
+    
+}
+.textSkills{
+    width:500px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+#itKnow{
+    margin-left:55%;
+    margin-top:-23%;
+}
+.lineItskil{
+
+    background-color:#3799CC;
+    height: 11px;
+    margin-top:-15px;
+    width: 0%;
+}
+.textSkills2{
+	margin-top: 5%;
+    margin-left: 500px;
+}
+.skillsTitles2{
+    text-align:right;
+}
+#languageKnow{
+    margin-left:5%;
+    margin-top:-16%;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+/*----------------------------------_HOBBY_-------------------------------------*/
+#myHobby{
+    display: none;
+        overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+   overflow-x: hidden;
+    
+}
+#titleHobby{
+        margin-top: 70px;
+     margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.skillsHobby{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top:80px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;
+    
+}
+#hobbyLine{
+    width:820px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+#close3{
+    position: relative;
+        margin:7px;
+    margin-right: 20px;
+    width:25px;
+    height:25px;
+    left: 83%;
+}
+#myHobby img{
+    display:inline;
+    margin-left:14px;
+    width:23%;
+}
+.textHobby{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+video{
+
+      display:inline;
+    margin-left:14px;
+    width:31%;  
+}
+
+/*-----------------------------------_EDUCATION_---------------------------------*/
+#Education{
+    display: none;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+    overflow-x: hidden;
+}
+#close4{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left:95%; 
+}
+#educationLine{
+    width:70%;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+#educationTitle{
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.titleEducation{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top:40px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;  
+}
+.textEducation{
+    
+    width:600px;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+#zut{
+    margin-top:-200px;
+}
+#zut img{
+
+    margin-left:70%;
+    width:200px;
+}
+#zut :last-child{
+    margin-top:20px;
+    margin-left: 74%;
+    width:100px;
+}
+.textEducation1{
+    margin-top: 150px;
+    margin-left: 35%;
+}
+.dyploms{
+    margin-top:-250px;
+}
+.dyploms img{
+    margin-left:5%;
+    width: 25%;
+} 
+.dyploms img:last-child{
+    margin-top: 10px;
+    margin-left:5%;
+    width: 25%;
+}
+
+
+ .dyploms1 > img:nth-of-type(1):hover{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+}
+#textEducation2{
+    margin-top: 0px;
+    width:85%;
+}
+/*-----------------------------------_COMMENTS_---------------------------------*/
+
+#email{
+
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+}
+#close5{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left:95%; 
+}
+#commentsTitle{ 
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.LinesGrey{
+    position:absolute;
+    width:10%;
+    margin-left:35px;
+    margin-top:40px;
+    
+}
+.LinesGrey2{
+    margin-top:-100px;
+    margin-left: 85%;
+}
+#commentsLine{
+      width:300px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -75px;
+    margin-right: 55px;  
+}
+#comments{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top:55px;
+    width:89%;
+    height:19%;
+    resize: none;
+}
+#buttonComments{
+    margin-left: 80%;
+    width:100px;
+    height:100px;
+
+}
+
+marquee{
+  color:white;
+ position: absolute;
+    z-index: 9999;
+    bottom: 20px;
+}
+marquee a{
+    color: white;
+    text-decoration: none;
+    
+}
+    
+
+
+/*------------------------GALLERY------------------------------------------------*/
+
+
+#gallery{
+    display: none;
+	position: absolute;
+	left: 10%;
+	top:2%;
+	width: 80%;
+	height:93%;
+	background:rgba(0,0,0,0.7);
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+#gallery > div{
+    display: flex;
+    flex-wrap:wrap;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+#gallery > div > div{
+    display: none;
+    margin-left: 20px;
+    width: 300px;
+    height: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#gallery > div > div:hover{
+    position: absolute;
+    left:10%;
+    width: 100%;
+    height: 90%;
+}
+
+#close5{
+	    position: absolute;
+      margin:7px;
+    margin-right: 10px;
+    width:25px;
+    height:25px;
+    left: 95%;
+	top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+        .textEducation {
+    width: 55%;
+}
+    .titleEducation {
+    width: 90%;
+}
+    #ground{
+        width: 88%;
+        left: 12%;
+    }
+    #CVline{
+        width:62%;
+    }
+    #CVinform{
+        margin-left: 3%;
+}
+    #ava{
+
+    margin-top: 40px;
+    margin-left: 57%;
+    width:35%;
+    height:70%;
+    margin-bottom: 55px;
+}
+    .skillsLine {
+    width: 75%;
+    }
+    .textSkills {
+    font-size: 14px;
+        
+}
+#itKnow {
+    margin-left: 58%;
+    margin-top: -24%;
+}
+    #languageKnow {
+        margin-top: -17%;
+}
+    #educationLine {
+    width: 70%;
+    }
+    #hobbyLine {
+        width: 75%;
+    }
+    .skillsTitles {
+
+        width: 90%;
+    }
+      .textSkills2{
+    width: 40%;
+    margin-top: 78px;
+    margin-left: 56%;
+    }
+    .textSkills3{
+    width: 40%;
+    margin-top: 72px;
+    }
+    .skillsHobby {
+    width: 90%;
+}
+    #myHobby img {
+    display: inline;
+    margin-left: 98px;
+    width: 33%;
+}
+	#close3{
+		position: absolute;
+		left: 70%;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    video{
+        margin-left: 1.5%;
+    }
+    #hobbyLine{
+        width: 70%;
+    }
+		#close3{
+		position: absolute;
+		left: 68%;
+	}
+    #itKnow {
+    margin-left: 54%;
+	margin-top: -30%
+}
+    #languageKnow {
+        margin-top: -180px;
+}
+    .textSkills2 {
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 54%;
+}
+    #educationLine {
+    width: 64%;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:1135px){
+		#close3{
+		position: absolute;
+		left: 65%;
+	}
+    #KnowMetext {
+    margin-top: 70px;
+    margin-left: 5%;
+    width: 96%;
+}
+    #kalendar{
+        left: 89%;
+    }
+    .divNetworks{
+        left:91%;
+    }
+        #CVinform{
+        margin-left: 0%;
+}
+    #CVinform {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: -510px;
+}
+        #ava {
+    margin-top: 40px;
+    margin-left: 60%;
+    width: 36%;
+    height: 65%;
+    margin-bottom: 89px;
+}
+        #CVline{
+        width:60%;
+    }
+    #itKnow {
+    margin-left: 54%;
+	margin-top: -36%;
+
+}
+        .menu1{
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+	    #KnowMetext {
+    width: 92%;
+}
+	.CV{
+		height:90%;
+	}
+	#languageKnow{
+		margin-left: 7%;
+	}
+	.skillsLine{
+		width: 70%;
+	}
+	#CVline{
+		margin-left: 35%;
+		width: 60%;
+	}
+    #hobbyLine{
+        width: 70%;
+    }
+    video{
+        margin-left:11px;
+    }
+
+}
+
+@media screen and (max-width: 980px){
+    #hobbyLine{
+        width: 65%;
+    }
+    #educationLine{
+        width: 55%;
+    }
+	  #itKnow {
+	margin-top: -40%;
+
+}
+			#close3{
+		position: absolute;
+		left: 62%;
+	}
+        #ground{
+        width: 87%;
+        left: 14%;
+    }
+        #kalendar{
+        left: 87%;
+    }
+    .divNetworks{
+        left:89%;
+    }
+    #languageKnow {
+    margin-top: -193px;
+    margin-left: 45px;
+}
+    .textSkills3 {
+    width: 40%;
+    margin-top: 24px;
+}
+    .textSkills2 {
+    width: 40%;
+    margin-top: 24px;
+    margin-left: 54%;
+}
+    .skillsLine {
+    width: 65%;
+}
+    #CVline {
+    width: 54%;
+}
+    #KnowMetext {
+    margin-top: 70px;
+    margin-left: 7%;
+    width: 86%;
+}
+    #CVinform {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: -380px;
+}
+    #ava {
+    margin-top: 6px;
+    margin-left: 58%;
+    width: 32%;
+    height: 56%;
+    margin-bottom: 89px;
+}
+#CVcyt {
+    margin-top: 3%;
+    width: 40%;
+    padding: 6px;
+}
+    #Cytate {
+    margin: 10px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+    #Cytate span{
+        font-size: 21px;
+    }
+    #AutorCyt {
+    margin-left: 199px;
+    font-size: 17px;
+}
+    #FavQuote {
+    font-size: 19px;
+    margin-left: 3%;
+}
+
+    .textEducation1 {
+    margin-top: 83px;
+}
+}
+@media screen and (max-width: 790px){
+    #ava{
+        margin-left: 30%;
+        width: 45%;
+        height:50%; 
+    }
+    video{
+        margin-left: 10%;
+    }
+    #ground{
+        top:10px;
+        height: 100%;
+        left: 20%;
+        width: 84%;
+    }
+    #zut{
+        margin-top: -300px;
+        margin-left: -100px;
+    }
+    #educationLine{
+        margin-left: 270px;
+        width: 50%;
+    }
+	  #itKnow {
+	margin-top: -60%;
+}
+	#CVline{
+		margin-left: 40%;
+		width:50%;
+	}
+	.skillsTitles{
+		margin-left: 30px;
+	}
+	.skillsTitles2{
+		
+		margin-top: 150px;
+	}
+	.skillsLine{
+		margin-left: 30%;
+	}
+    #hobbyLine{
+        width:55%;
+    }
+    #CVinform{
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    #CVcyt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px){
+	body{
+		overflow:scroll;
+	}
+	marquee{
+		display:none;
+	}
+    body{
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    header{
+        display: none;
+        margin-top: -10px;
+        height: 736px;
+        margin-left:-10px;
+        width:90px;
+        background:white;
+    }
+    #ground{
+     display: none;   
+    }
+    #kalendar{
+        display:none;
+    }
+    #groundDIV{
+        display:none;
+    }
+
+    .divNetworks{
+        display: none;
+    }
+    
+    #mobile{
+        overflow:  hidden;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #mobileMyName{
+        margin:auto;
+        margin-top:55%;
+        font-family: 'Libre Baskerville', serif;
+        color: white;
+        font-size: 25px;
+    }
+    #mobileWebDeveloper{
+        margin-top: 10px;
+        margin: auto;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #hrMobile{
+        width: 30%;
+        margin-left: 100%;
+        border:1px solid #3799CC;
+        background:#3799CC;
+    }
+    #mobileWebDeveloper + p{
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: 140%;
+        color: white;
+        width:90%;
+    }
+    .mobilePar{
+                font-size: 20px;
+        margin-left: 5%;
+        color: white;
+        margin-top: 9%;
+        width:90%;
+    }
+    #mobileWebDeveloper + p + p + div{
+   margin: 15px;
+    margin-left:5%
+    }
+    .pagesMobile{
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 10px;
+        margin: 5px;
+        margin-left:0px;
+        word-wrap: break-word;
+
+    }
+    
+    #whiteBackgroundMobile{
+        margin-top:20px;
+        background:white;
+        padding:10px;
+        position: relative;
+    }
+    .mobileSkillsTitles{
+        font-size:18px;
+    }
+    .mobileSkillsTitles + p{
+        opacity: 0;
+        font-size: 26px;
+        font-family: 'Londrina Sketch', cursive;
+        position: absolute;
+        top: 0px;
+        color:#3799CC;
+        font-weight: bold;
+        line-height: 1;
+        
+    }
+    .mobileTextSkills{
+        
+        margin-left: 5%;
+        width:90%;
+        font-size: 20px;
+    }
+    #mobileItKnow{
+        margin-left: 5%;
+        margin-top:10px;
+        font-size: 20px;
+    }
+    .spanMobile{
+        color:#3799CC;
+    }
+    #mobilelanguageKnow{
+        margin-left: 5%;
+        margin-top:10px;
+        font-size: 20px;
+        color:white;
+    }
+    #footerMobile{
+        margin-left: 5%;
+
+        color:white;
+        background-image: url(blackwhiteAve.png);
+        background-repeat: no-repeat;
+            background-position: -200px -400px;
+        background-size: 700px;
+        
+    }
+    #footerMobile h3{
+        margin-top: 50px;
+        font-size: 35px;
+        margin-bottom: 100px;
+    }
+    #footerMobile a{
+        
+        color:white;
+        font-size:20px;
+        text-decoration: none;
+    }
+    #footerMobile a:hover{
+        color:#3799CC;
+    }  
+    #footerMobile a:hover span{
+        color:#3799CC;
+    }
+    a > span{
+        color:#808080;
+        font-size: 15px;
+        font-weight: normal;
+        
+    }
+    #footerMobile > p {
+        padding-left: 5px;
+        border-left: 2px solid #3799CC;
+        color:#808080;
+        font-size:15px;
+        width: 80%;
+    }
+    #hrMobile2{
+        margin-top:20px;
+        width: 40%;
+        border:1px solid #3799CC;
+        background:#3799CC;
+    }
+}
+
+
+
+
+/* -------------------Firefox------------------------------*/
+
+@-moz-document url-prefix()
+{
+    .menu2{
+        margin-top:20px;
+    }
+    .buttonHandD{
+        border-radius: 10px;
+        text-align: center;
+
+        height: 0px;
+    }
+    
+}
+/*---------------------------------------------------------*/
