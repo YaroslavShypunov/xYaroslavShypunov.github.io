@@ -241,10 +241,11 @@ border-radius: 150px;
 
 }
 .oboloczka{
-   overflow-x: hidden;
+   overflow: hidden;
    width:100%;
    height:40px;
     background:black;
+    
 }
 #close{
     margin:7px;
@@ -1197,23 +1198,8 @@ marquee a{
 }
 
 
+
 @media screen and (max-width: 385px){
-    .pagesMobile{
-        font-size: 15px;
-        padding: 5px;
-    }
-        #mobileMyName{
-        margin:auto;
-        margin-top:55%;
-        margin-left: 20%:
-    }
-    #mobileWebDeveloper{
-        margin-top: 10px;
-        margin: auto;
-        margin-left: 20%;
-    }
-}
-@media screen and (max-width: 345px){
             #mobileMyName{
         margin:auto;
         margin-top:55%;
@@ -1222,10 +1208,10 @@ marquee a{
     #mobileWebDeveloper{
         margin-top: 10px;
         margin: auto;
-        margin-left: 20%;
+        margin-left: 35%;
     }
         .pagesMobile{
-        font-size: 13px;
+        font-size: 16px;
         padding: 5px;
     }
 }
