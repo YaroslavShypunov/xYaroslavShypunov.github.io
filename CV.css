@@ -701,18 +701,6 @@ marquee a{
 
 
 
-@media screen and (max-height: 680px){
-    header{
-   margin-top: -20px;
-    }
-    .menu1{
-    margin-left: 20px;
-   margin-top: 40px;
-    width:105px;
-    height: 65px;
-
-    
-}
 
 }
 @media screen and (max-width: 1400px){
@@ -1230,6 +1218,15 @@ marquee a{
     }
 }
 
+
+@media screen and (max-height: 680px){
+    header{
+   margin-top: -20px;
+    }
+    .menu1{
+    margin-left: 20px;
+   margin-top: 40px;  
+}
 /* -------------------Firefox------------------------------*/
 
 @-moz-document url-prefix()
