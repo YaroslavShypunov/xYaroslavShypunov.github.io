@@ -701,10 +701,8 @@ marquee a{
 
 
 
-@media screen and (max-height: 570px){
-    header{
-    margin-top: -30px;
-    }
+@media screen and (max-height: 670px){
+
     .menu1{
     margin-left: 20px;
    margin-top: 40px;
