@@ -702,7 +702,7 @@ marquee a{
 
 
 
-}
+
 @media screen and (max-width: 1400px){
         .textEducation {
     width: 55%;
@@ -1226,6 +1226,7 @@ marquee a{
     .menu1{
     margin-left: 20px;
    margin-top: 40px;  
+}
 }
 /* -------------------Firefox------------------------------*/
 
