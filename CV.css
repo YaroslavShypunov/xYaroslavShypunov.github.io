@@ -1214,8 +1214,18 @@ marquee a{
     }
 }
 @media screen and (max-width: 345px){
+            #mobileMyName{
+        margin:auto;
+        margin-top:55%;
+        margin-left: 20%:
+    }
+    #mobileWebDeveloper{
+        margin-top: 10px;
+        margin: auto;
+        margin-left: 20%;
+    }
         .pagesMobile{
-        font-size: 12px;
+        font-size: 13px;
         padding: 5px;
     }
 }
