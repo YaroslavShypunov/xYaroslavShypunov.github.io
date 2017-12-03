@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('#mcpLus').animate({width:'27%'},1500);
     });
     
-    $('#whiteBackgroundMobile + div').mouseover(function(){
+    $('#whiteBackgroundMobile + div').click(function(){
         $('#menglish').animate({width:'42%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
