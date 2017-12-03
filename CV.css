@@ -34,45 +34,44 @@ header{
     
 }
 
-
-#firstMenu{
+.menu1:nth-of-type(4){
     width:90px;
     height: 90px;
     display: block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_couch.svg) no-repeat;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_9ta_plane.svg) no-repeat;
     
 }
 
-#firstMenu:hover{
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_couch.svg) no-repeat;
+.menu1:nth-of-type(4):hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_9ta_plane.svg) no-repeat;
 }
-#thirdMenu{
+.menu1:nth-of-type(2){
     width:90px;
     height: 90px;
     display:block;
     background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_mac.svg) no-repeat;
 }
-#thirdMenu:hover{
+.menu1:nth-of-type(2):hover{
     background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_mac.svg) no-repeat;
 }
 
-#forthMenu{
+.menu1:nth-of-type(3){
     width:90px;
     height: 90px;
     display:block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_phone.svg) no-repeat;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_1ed_teacher.svg) no-repeat;
 }
-#forthMenu:hover{
+.menu1:nth-of-type(3):hover{
     display:block;
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_phone.svg) no-repeat;
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_1ed_teacher.svg) no-repeat;
 }
-#fifthMenu{
+.menu1:nth-of-type(1){
     width:90px;
     height: 90px;
     display:block;
     background: url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_flipchart.svg) no-repeat;
 }
-#fifthMenu:hover{
+.menu1:nth-of-type(1):hover{
     display:block;
     background: url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_flipchart.svg) no-repeat;
 }
@@ -236,7 +235,6 @@ border-radius: 150px;
     left:200px;
     width:73%;
 	height:93%;
-
     color:#424242;
     padding-bottom: 20px;
 
@@ -259,7 +257,6 @@ border-radius: 150px;
     margin-top: 40px;
     margin-left: 57%;
     width:35%;
-    height:75%;
     margin-bottom: 40px;
 }
 #KnowMe{
@@ -272,7 +269,7 @@ border-radius: 150px;
     
 }
 #CVline{
-    width:720px;
+    width:70%;
     height:1px;
     background:#3799CC;
     border:1px solid #3799CC;
@@ -280,14 +277,15 @@ border-radius: 150px;
     margin-right: 85px;
 }
 #KnowMetext{
+    font-size: 22px;
     margin-top: 70px;
     margin-left: 50px;
     width:90%;
 }
 #CVinform{
-    font-size: 17px;
-    margin-left: 25px;
-    margin-top:-510px;
+    font-size: 22px;
+    margin-left: 3%;
+    margin-top:-55%;
 }
 td{
     padding-left: 25px;
@@ -297,7 +295,7 @@ tr{
 }
 #CVcyt{
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 4%;
     width: 45%;
     padding: 10px;
     background-color:#FBFBFB;
@@ -332,7 +330,9 @@ span{
 /* -------------------------------_SKILLS_---------------------------------------*/
 .skills{
         display:none;
+   
     overflow: scroll;
+     overflow-x: hidden;
     background-color:white;
     position:absolute;
     top:30px;
@@ -342,6 +342,11 @@ span{
     color:#424242;
    
     
+}
+.flexDivSkills{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 #close2{
     margin:7px;
@@ -360,7 +365,7 @@ span{
 }
 
 .skillsLine{
-        width:820px;
+    width: 70%;
     height:1px;
     background:#3799CC;
     border:1px solid #3799CC;
@@ -374,19 +379,19 @@ span{
     font-size: 25px;
     margin-top:80px;
     margin-left:50px;
-    width:945px;
+    width:93%;
     padding-bottom:5px;
     border-bottom: 0.1px solid lightgrey;
     
 }
 .textSkills{
-    width:500px;
-    margin-left: 50px;
+    width:38%; 
     font-family:'Mukta', sans-serif;
 }
 #itKnow{
-    margin-left:55%;
-    margin-top:-23%;
+    width: 60%;
+    margin-left: 5%;
+  /*  margin-top:-18%; */
 }
 .lineItskil{
 
@@ -396,15 +401,15 @@ span{
     width: 0%;
 }
 .textSkills2{
-	margin-top: 5%;
-    margin-left: 500px;
+	margin-top: 3%;
+    margin-left: 55%;
 }
 .skillsTitles2{
     text-align:right;
 }
 #languageKnow{
-    margin-left:5%;
-    margin-top:-16%;
+    margin-left:50px;
+    margin-top:-12%;
     padding-bottom: 50px;
     
     
@@ -440,18 +445,18 @@ span{
     font-size: 30px;
     margin-top:80px;
     margin-left:50px;
-    width:945px;
+    width:93%;
     padding-bottom:5px;
     border-bottom: 0.1px solid lightgrey;
     
 }
 #hobbyLine{
-    width:820px;
+    width:75%;
     height:1px;
     background:#3799CC;
     border:1px solid #3799CC;
     margin-top: -70px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 #close3{
     position: relative;
@@ -503,7 +508,7 @@ video{
     background:#3799CC;
     border:1px solid #3799CC;
     margin-top: -70px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 #educationTitle{
  margin-top: 70px;
@@ -520,7 +525,7 @@ video{
     font-size: 30px;
     margin-top:40px;
     margin-left:50px;
-    width:945px;
+    width:93%;
     padding-bottom:5px;
     border-bottom: 0.1px solid lightgrey;  
 }
@@ -702,8 +707,74 @@ marquee a{
 
 
 
+@media screen and (min-width: 1900px) and (max-width: 2560px){
+    .menu1{
+     margin-left:3%;   
+    }
+    #kalendar{
+    top: 5%;
+    left:89%;
+    border:10px solid white;    
+}
+#monthDate{
+    font-size:70px;
+    margin:-10px 20px 0px 20px;
+    
+}
+#dayDate{
+    font-size: 85px;
+    margin: -40px 0px 0px 20%;
+}
+#yearDate{
+    font-size:70px;
+    margin:-30px 20px 0px 20px;
+}
 
-@media screen and (max-width: 1400px){
+    
+    
+.divNetworks{
+    left:91%;
+    top:42%;
+}
+
+
+#menu2Icons1{ 
+    width: 100px;
+    height: 100px;
+}
+#menu2Icons2{
+    width:79px;
+    height:79px;
+}
+#menu2Icons3{
+    width:90px;
+    height:90px;
+}
+
+.lineItskil{
+
+    background-color:#3799CC;
+    height: 11px;
+    margin-top:-15px;
+    width: 0%;
+}
+.textSkills2{
+	margin-top: 7%;
+    margin-left: 55%;
+}
+.skillsTitles2{
+    text-align:right;
+}
+#languageKnow{
+    margin-left:5%;
+    margin-top:-9%;
+    padding-bottom: 50px;
+    
+    
+}
+}
+
+@media screen and (max-width: 1440px){
         .textEducation {
     width: 55%;
 }
@@ -721,7 +792,6 @@ marquee a{
         margin-left: 3%;
 }
     #ava{
-
     margin-top: 40px;
     margin-left: 57%;
     width:35%;
@@ -735,12 +805,9 @@ marquee a{
     font-size: 14px;
         
 }
-#itKnow {
-    margin-left: 58%;
-    margin-top: -24%;
-}
+
     #languageKnow {
-        margin-top: -17%;
+        margin-top: -12%;
 }
     #educationLine {
     width: 70%;
@@ -754,12 +821,8 @@ marquee a{
     }
       .textSkills2{
     width: 40%;
-    margin-top: 78px;
+    margin-top: 0px;
     margin-left: 56%;
-    }
-    .textSkills3{
-    width: 40%;
-    margin-top: 72px;
     }
     .skillsHobby {
     width: 90%;
@@ -782,6 +845,9 @@ marquee a{
 
 
 @media screen and (max-width: 1200px){
+    #languageKnow{
+        margin-top: -20%;
+    }
     video{
         margin-left: 1.5%;
     }
@@ -792,13 +858,8 @@ marquee a{
 		position: absolute;
 		left: 68%;
 	}
-    #itKnow {
-    margin-left: 54%;
-	margin-top: -30%
-}
-    #languageKnow {
-        margin-top: -180px;
-}
+
+
     .textSkills2 {
     width: 40%;
     margin-top: 60px;
@@ -848,11 +909,7 @@ marquee a{
         #CVline{
         width:60%;
     }
-    #itKnow {
-    margin-left: 54%;
-	margin-top: -36%;
 
-}
         .menu1{
         margin-top: 5%;
     }
@@ -867,6 +924,7 @@ marquee a{
 		height:90%;
 	}
 	#languageKnow{
+        margin-top: -25%;
 		margin-left: 7%;
 	}
 	.skillsLine{
@@ -892,10 +950,6 @@ marquee a{
     #educationLine{
         width: 55%;
     }
-	  #itKnow {
-	margin-top: -40%;
-
-}
 			#close3{
 		position: absolute;
 		left: 62%;
@@ -918,11 +972,7 @@ marquee a{
     width: 40%;
     margin-top: 24px;
 }
-    .textSkills2 {
-    width: 40%;
-    margin-top: 24px;
-    margin-left: 54%;
-}
+
     .skillsLine {
     width: 65%;
 }
@@ -995,9 +1045,7 @@ marquee a{
         margin-left: 270px;
         width: 50%;
     }
-	  #itKnow {
-	margin-top: -60%;
-}
+
 	#CVline{
 		margin-left: 40%;
 		width:50%;
@@ -1021,6 +1069,9 @@ marquee a{
     }
     #CVcyt{
         display: none;
+    }
+    #languageKnow{
+        margin-top: -40%;
     }
 }
 
