@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('#mcpLus').animate({width:'27%'},1500);
     });
     
-    $('#whiteBackgroundMobile + div').on('mouseover',function(){
+    $('#mobilelanguageKnowStart').on('mouseover',function(){
         $('#menglish').animate({width:'42%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
@@ -143,18 +143,14 @@ $(window).resize(function(){
     
     })
 
+/*------------------____GALLERY___--------------------------------*/    
     
-$("#gallery > div > div").mouseover(function(){
-	$('#gallery > div > div').css('display','none');
-    $(this).css('display','block');
-});
-$("#gallery > div > div").mouseout(function(){
-	$('#gallery > div > div').css('display','block');
-});
+
 $('#close5').on('click',function(){
 $('#gallery').hide(100);
     
 });
+
 $('#allDiploms').on('click',function(){
     $('#gallery').show(100);
     $('#gallery > div > div').eq(0).show(100);
@@ -167,4 +163,11 @@ $('#allDiploms').on('click',function(){
      $('#gallery > div > div').eq(7).show(1000);
     
 });
+    $('#gallery > div > div').on('click',function (){
+        var showDiploms = $(this).css('background-image');
+        $('#largeDiplom').css("backgroundImage",showDiploms);
+    });
+
+
+/*-------------------------------------------------------------------*/
 });
