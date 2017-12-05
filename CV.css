@@ -1129,10 +1129,12 @@ marquee a{
         font-family: 'Libre Baskerville', serif;
         color: white;
         font-size: 25px;
+        text-align: center;
     }
     #mobileWebDeveloper{
         margin-top: 10px;
         margin: auto;
+        text-align: center;
         color: white;
         font-family: 'Libre Baskerville', serif;
     }
