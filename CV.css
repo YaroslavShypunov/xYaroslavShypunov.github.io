@@ -1273,7 +1273,7 @@ marquee a{
     #mobileWebDeveloper{
         margin-top: 10px;
         margin: auto;
-        
+        padding-right: -1%;
     }
         .pagesMobile{
         font-size: 16px;
