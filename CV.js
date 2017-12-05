@@ -11,13 +11,13 @@ $(document).ready(function(){
     
     $(window).scroll(function(){
         var bo = $('body').scrollTop();
-        if(bo > 400){
+        if(bo > 800){
           $('#mhtMl5').animate({ width: '78%' }, 1500);
         $('#mcSs3').animate({width:'78%'},1500);
         $('#mjquEry').animate({width:'56%'},1500);
         $('#mcpLus').animate({width:'27%'},1500);
         }
-        if(bo > 800){
+        if(bo > 1400){
         $('#menglish').animate({width:'42%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
