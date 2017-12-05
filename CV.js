@@ -17,14 +17,15 @@ $(document).ready(function(){
         $('#mjquEry').animate({width:'56%'},1500);
         $('#mcpLus').animate({width:'27%'},1500);
         }
-    });
-    
-    $('#mobilelanguageKnowStart').on('mouseover',function(){
+        if(bo > 400){
         $('#menglish').animate({width:'42%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
         $('#mpolish').animate({width:'65%'},1500);
+        }
     });
+    
+
     
     var date = new Date();
     var year = date.getFullYear();
