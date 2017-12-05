@@ -1134,7 +1134,8 @@ marquee a{
     #mobileWebDeveloper{
         margin-top: 10px;
         margin: auto;
-        text-align: left;
+        text-align: center;
+        padding-right: 10%;
         color: white;
         font-family: 'Libre Baskerville', serif;
     }
