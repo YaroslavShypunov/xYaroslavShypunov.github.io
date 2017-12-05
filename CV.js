@@ -9,11 +9,14 @@ $(document).ready(function(){
         setTimeout(function(){$('#hrMobile2').animate({opacity:'1'},100);},100);
     },2000);
     
-    $('#whiteBackgroundMobile').on("mouseover",function(){
+    $(window).scroll(function(){
+        var bo = $('body').scrollTop();
+        if(bo > 200){
           $('#mhtMl5').animate({ width: '78%' }, 1500);
         $('#mcSs3').animate({width:'78%'},1500);
         $('#mjquEry').animate({width:'56%'},1500);
         $('#mcpLus').animate({width:'27%'},1500);
+        }
     });
     
     $('#mobilelanguageKnowStart').on('mouseover',function(){
