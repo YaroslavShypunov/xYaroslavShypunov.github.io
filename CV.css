@@ -1264,6 +1264,9 @@ marquee a{
 
 
 @media screen and (max-width: 385px){
+        #mobileWebDeveloper{
+        padding-right: 10%;
+    }
             #mobileMyName{
         margin:auto;
         margin-top:55%;
@@ -1272,7 +1275,7 @@ marquee a{
     #mobileWebDeveloper{
         margin-top: 10px;
         margin: auto;
-        margin-left: 35%;
+        
     }
         .pagesMobile{
         font-size: 16px;
