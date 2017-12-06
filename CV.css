@@ -38,42 +38,42 @@ header{
     width:90px;
     height: 90px;
     display: block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_9ta_plane.svg) no-repeat;
+    background:url(Icons/Icon_plane.svg) no-repeat;
     
 }
 
 .menu1:nth-of-type(4):hover{
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_9ta_plane.svg) no-repeat;
+    background:url(Icons/blue/Icon_plane_blue.svg) no-repeat;
 }
 .menu1:nth-of-type(2){
     width:90px;
     height: 90px;
     display:block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_mac.svg) no-repeat;
+    background:url(Icons/Icon_mac.svg) no-repeat;
 }
 .menu1:nth-of-type(2):hover{
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_mac.svg) no-repeat;
+    background:url(Icons/blue/Icon_mac_blue.svg) no-repeat;
 }
 
 .menu1:nth-of-type(3){
     width:90px;
     height: 90px;
     display:block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_1ed_teacher.svg) no-repeat;
+    background:url(Icons/Icon_know.svg) no-repeat;
 }
 .menu1:nth-of-type(3):hover{
     display:block;
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_1ed_teacher.svg) no-repeat;
+    background:url(Icons/blue/Icon_know_blue.svg) no-repeat;
 }
 .menu1:nth-of-type(1){
     width:90px;
     height: 90px;
     display:block;
-    background: url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+    background: url(Icons/Icon_flipchart.svg) no-repeat;
 }
 .menu1:nth-of-type(1):hover{
     display:block;
-    background: url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+    background: url(Icons/blue/Icon_flipchart_blue.svg) no-repeat;
 }
 /*--------------------------------------------------*/
 #groundDIV{
@@ -159,15 +159,15 @@ border-radius: 150px;
 }
 #menu2Icons2{
     margin-top: -15px;
-    padding:15px;
-    width:29px;
-    height:29px;
+    padding:0px;
+    width:60px;
+    height:60px;
 }
 #menu2Icons3{
     margin-top: -15px;
-    padding:10px;
-    width:40px;
-    height:40px;
+    padding:0px;
+    width:60px;
+    height:60px;
 }
 
 .Menu2Icons:hover{
@@ -638,17 +638,7 @@ video{
 
 }
 
-marquee{
-  color:white;
- position: absolute;
-    z-index: 9999;
-    bottom: 20px;
-}
-marquee a{
-    color: white;
-    text-decoration: none;
-    
-}
+
     
 
 
@@ -752,12 +742,12 @@ marquee a{
     height: 100px;
 }
 #menu2Icons2{
-    width:79px;
-    height:79px;
+    width:110px;
+    height:110px;
 }
 #menu2Icons3{
-    width:90px;
-    height:90px;
+    width:110px;
+    height:110px;
 }
 
 .lineItskil{
