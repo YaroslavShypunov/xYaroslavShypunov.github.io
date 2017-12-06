@@ -18,7 +18,7 @@ $(document).ready(function(){
         $('#mcpLus').animate({width:'27%'},1500);
         }
         if(bo > 1400){
-        $('#menglish').animate({width:'42%'},1500);
+        $('#menglish').animate({width:'25%'},1500);
         $('#mrussian').animate({width:'80%'},1500);
         $('#mukrainian').animate({width:'80%'},1500);
         $('#mpolish').animate({width:'65%'},1500);
