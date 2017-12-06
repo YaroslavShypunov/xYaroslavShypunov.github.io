@@ -65,7 +65,7 @@ $(document).ready(function(){
         $('#cSs3').animate({width:'78%'},1500);
         $('#jquEry').animate({width:'56%'},1500);
         $('#cpLus').animate({width:'27%'},1500);
-        $('#english').animate({width:'22%'},1500);
+        $('#english').animate({width:'14%'},1500);
         $('#russian').animate({width:'41%'},1500);
         $('#ukrainian').animate({width:'41%'},1500);
         $('#polish').animate({width:'34%'},1500);
